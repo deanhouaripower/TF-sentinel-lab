@@ -9,4 +9,8 @@ policy "S3-SSE" {
 policy "ec2-instancetype" {
    enforcement_level = "soft-mandatory"
   }
+
+policy "ec2-allowedAZ" {
+   enforcement_level = "soft-mandatory"
+  }
  
