@@ -71,7 +71,7 @@ validate_attribute_in_list = func(type, attribute, allowed_values) {
       if r.applied[attribute] else "" not in allowed_values {
         print("Resource", address, "has attribute", attribute, "with value",
               r.applied[attribute] else "",
-              "that is not in the allowed list:", allowed_values)
+              "THAT IS NOT ALLOWED! PLEASE CHANGE TO ALLOWED INSTANCE TYPE:", allowed_values)
         validated = false
       }
     }
