@@ -13,4 +13,8 @@ policy "ec2-instancetype" {
 policy "ec2-allowedAZ" {
    enforcement_level = "soft-mandatory"
   }
+
+policy "cost" {
+   enforcement_level = "hard-mandatory"
+  }
  
