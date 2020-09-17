@@ -6,7 +6,7 @@ policy "S3-SSE" {
   enforcement_level = "soft-mandatory"
 }
 
-policy "ec2" {
+policy "ec2-instancetype" {
    enforcement_level = "soft-mandatory"
   }
  
