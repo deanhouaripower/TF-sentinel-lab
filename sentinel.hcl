@@ -1,8 +1,8 @@
-policy "disallow-s3-acl-public-read-write" {
+policy "s3-acl-public-read-write" {
   enforcement_level = "hard-mandatory"
 }
 
-policy "enforce-s3-server-side-encryption-enabled-true" {
+policy "S3-SSE" {
   enforcement_level = "soft-mandatory"
 }
 
