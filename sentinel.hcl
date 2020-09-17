@@ -1,5 +1,5 @@
 policy "s3-acl-public-read-write" {
-  enforcement_level = "hard-mandatory"
+  enforcement_level = "soft-mandatory"
 }
 
 policy "S3-SSE" {
