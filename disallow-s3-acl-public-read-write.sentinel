@@ -10,7 +10,7 @@ violatingS3Buckets = filter tfplan.resource_changes as _, rc {
 
 //print out adress for non-compliant bucket
 for violatingS3Buckets as address, bucket {
-	print(address + "'s acl is : " + bucket.change.after.acl + ", this is not compliant.")
+	print(address + "'s acl is : " + bucket.change.after.acl + ", THE S3 BUCKET IS NOT COMPLIANT!. PLEASE CHANGE TO PRIVATE")
 }
 
 //debug code
