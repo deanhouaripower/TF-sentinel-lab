@@ -6,6 +6,6 @@ policy "S3-SSE" {
   enforcement_level = "soft-mandatory"
 }
 
-policy "ec2-intance-type"{
+policy "ec2-intance-type" {
   enforcement_level = "soft-mandatory"
 }
