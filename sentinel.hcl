@@ -6,4 +6,7 @@ policy "S3-SSE" {
   enforcement_level = "soft-mandatory"
 }
 
-
+policy "ec2" {
+   enforcement_level = "soft-mandatory"
+  }
+ 
