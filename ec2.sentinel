@@ -3,7 +3,7 @@
 
 ##### Imports #####
 
-import "tfplan/v2" as tfplan
+import  "tfplan"
 import "strings"
 
 ##### Functions #####
